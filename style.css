@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "Alice";
+    src: url(./photo/font/Alice-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./font/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+:root {
+    --green: #04B90B;
+    --neutral-2: #23262f;
+    --neutral-3: #353945;
+    --neutral-4: #777E90;
+}
+
+.grin_color {
+    color: var(--green);
+}
+
+.poppins {
+    font-family: "poppins";
+}
+
+.Alice {
+    font-family: "Alice";
+}
+
+.base {
+    width: 770px;
+    height: 139px;
+    margin-top: 80px;
+    margin-left: 335px;
+
+}
+
+h1 {
+    font-family: "Alice";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--neutral-2);
+}
+
+.neutral-4_color {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 12px;
+    color: var(--neutral-4);
+}
+
+/* --------------------------------------------------------------------------- */
+.nav {
+    border-radius: 8px;
+    padding: 6px;
+    width: 672px;
+    height: 74px;
+    box-shadow: 0 3px 9px 0 rgba(1, 5, 20, 0.05);
+    background: #fff;
+    margin-top: 32px;
+    margin-left: 380px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.korean {
+    display: flex;
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    background: var(--green);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.first-pozitions {
+    display: flex;
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    background: var(--green);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.korean:hover {
+    background-color: #2cec33;
+}
+
+.Arrow {
+    display: none;
+    justify-content: end;
+    margin-top: 6px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.Vietnam {
+    display: flex;
+    width: 196px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Vietnam:hover {
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    background: var(--green);
+    color: #fff;
+}
+
+.ThaiLand {
+    display: flex;
+    width: 196px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ThaiLand:hover {
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    background: var(--green);
+    color: #fff;
+}
+
+.text-1 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+/* ------------------------------------------------------------------------------- */
+.menu {
+    display: flex;
+    width: 1168px;
+    height: 481px;
+    margin-left: 136px;
+    margin-right: 136px;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.menu-1 {
+    display: flex;
+    width: 1168px;
+    height: 481px;
+    margin-left: 136px;
+    margin-right: 136px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.card-1 {
+    border-radius: 15px;
+    padding: 24px 0px;
+    width: 340px;
+    height: 481px;
+    box-shadow: 0 10px 27px 0 rgba(53, 53, 53, 0.05);
+    background: #fff;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    color: var(--neutral-2);
+}
+
+.info {
+    padding: 0px 24px;
+    width: 340px;
+    height: 125px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    width: 241px;
+    height: 24px;
+    margin-top: 12px;
+}
+
+.Reviews {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--neutral-3);
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 292px;
+    height: 40px;
+    margin-top: 12px;
+}
+
+.dollar {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.btn {
+    border-radius: 6px;
+    border: none;
+    padding: 8px 16px;
+    width: 117px;
+    height: 40px;
+    background: var(--green);
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #2cec33;
+}
+
+.card-2 {
+    border-radius: 15px;
+    padding: 24px 0px;
+    width: 340px;
+    height: 481px;
+    box-shadow: 0 10px 27px 0 rgba(53, 53, 53, 0.05);
+    background: #fff;
+}
+
+.card-3 {
+    border-radius: 15px;
+    padding: 24px 0px;
+    width: 340px;
+    height: 481px;
+    box-shadow: 0 10px 27px 0 rgba(53, 53, 53, 0.05);
+    background: #fff;
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media (max-width: 1024px) {
+    .title {
+        width: 770px;
+        height: 241px;
+    }
+
+    .menu,
+    .menu-1 {
+        margin-left: 52px;
+        margin-right: 52px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .neutral-4_color {
+        font-size: 20px;
+    }
+
+    .table {
+        width: 920px;
+        height: 848px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        border-radius: 15px;
+        padding: 24px 0px;
+        width: 285px;
+        height: 384px;
+        box-shadow: 0 10px 27px 0 rgba(53, 53, 53, 0.05);
+        background: #fff;
+    }
+
+    .card-1 img:first-child,
+    .card-2 img:first-child,
+    .card-3 img:first-child {
+        width: 200px;
+        height: 200px;
+    }
+
+    .info {
+        padding: 0px 24px;
+        width: 283px;
+        height: 112px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .review {
+        width: 190px;
+        height: 21px;
+    }
+
+    .Reviews {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .review img:first-child {
+        width: 96px;
+        height: 16px;
+    }
+
+    .price {
+        width: 235px;
+    }
+
+    .dollar {
+        font-size: 28px;
+        line-height: 143%;
+    }
+}
+/* ----------------------------------------------------------------------------------- */
+@media (max-width: 374px) {
+    main {
+        width: 374px;
+        height: 2929px;
+    }
+
+    .title {
+        box-sizing: content-box;
+        padding: 40px 23px 60px 23px;
+        width: 374px;
+        height: 352px;
+    }
+
+    .base {
+        width: 284px;
+        height: 134px;
+        margin-top: 40px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    h1 {
+        font-size: 32px;
+        letter-spacing: -0.01em;
+        text-align: center;
+    }
+
+    .neutral-4_color {
+        font-size: 18px;
+    }
+
+    .nav {
+        border-radius: 8px;
+        padding: 6px;
+        width: 328px;
+        height: 74px;
+        margin-top: 44px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+    .korean {
+        display: flex;
+        border-radius: 8px;
+        padding: 0px 12px;
+        width: 316px;
+        height: 62px;
+        justify-content: space-between;
+    }
+
+    .Arrow {
+        display: contents;
+        margin-right: 10px;
+        margin-top: 6px;
+    }
+
+    .Vietnam,
+    .ThaiLand {
+        display: none;
+    }
+
+    .menu,
+    .menu-1 {
+        display: contents;
+
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        box-sizing: content-box;
+        margin-top: 32px;
+        margin-left: 44px;
+        margin-right: 44px;
+    }
+    .card-1 img:first-child,
+    .card-2 img:first-child,
+    .card-3 img:first-child {
+        margin-left: 40px;
+    }
+}
+
